@@ -1,0 +1,47 @@
+.black-container{
+  background:  #171717;
+  padding: 0px 100px 100px 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.bio-container{
+  display: table;
+}
+
+.bio{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.bio-image{
+  height: 300px;
+  transform: translate(-80%,25%);
+  border-radius: 100%;
+  border: solid 5px #171717;
+}
+
+.bio-details{
+  margin: 0 auto;
+  width: 500px;
+  color: #efefef;
+  background:  #157d7e;
+  padding: 20px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 15px;
+}
+
+.bio-social{
+  margin: 10px;
+  float: right;
+}
+
+.fa{
+  margin: 5px;
+  color: #efefef;
+}
+
+.fa:hover{
+  color: #157d7e;
+}

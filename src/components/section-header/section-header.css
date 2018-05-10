@@ -1,0 +1,36 @@
+.section-header{
+  margin-bottom: 50px;
+}
+
+.left-header{
+  display: table;
+  width: 100px;
+  height: 100px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #157d7e;
+  color: #efefef;
+}
+
+.right-header{
+  float:right;
+}
+
+.title{
+  display: table-cell;
+  vertical-align:middle;
+  text-align: center;
+  font-weight: bold;
+}
+
+.href-title{
+  color: #efefef;
+  background: #157d7e;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.href-title:hover{
+  color: #efefef;
+  text-decoration: none;
+}

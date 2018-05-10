@@ -1,0 +1,29 @@
+.article {
+  background: #efefef;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.main-image{
+  width: 90%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main-title{
+  margin: 50px;
+  font-weight: bold;
+  background:#b34343; width:80%; height:150px;
+  margin: auto;
+  color: white;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.hopa{
+  background:#b34343; width:80%; height:50px;
+  margin: auto;
+  margin-bottom: 20px;
+}

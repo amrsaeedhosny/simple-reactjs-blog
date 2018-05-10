@@ -1,0 +1,40 @@
+.gray-container{
+  background: #efefef;
+  padding: 0px 100px 100px 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.article-card{
+  width: 100%;
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+  background: #171717;
+}
+
+.article-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.article-card:hover .article-image{
+  opacity: 0.2;
+}
+
+.article-title{
+  text-align: center;
+  color: #ffffff;
+  transform: translateY(-150%);
+  font-weight: bold;
+  visibility: hidden;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.article-card:hover .article-title{
+  visibility: visible;
+}

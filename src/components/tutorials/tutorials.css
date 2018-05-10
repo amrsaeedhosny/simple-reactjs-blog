@@ -1,0 +1,40 @@
+.black-container{
+  background: #171717;
+  padding: 0px 100px 100px 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.tutorial-card{
+  width: 100%;
+  height: 200px;
+  margin: 0px;
+  padding: 0px;
+  background: #157d7e;
+}
+
+.tutorial-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tutorial-card:hover .tutorial-image{
+  opacity: 0.2;
+}
+
+.tutorial-title{
+  text-align: center;
+  color: #ffffff;
+  transform: translateY(-150%);
+  font-weight: bold;
+  visibility: hidden;
+  font-size: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.tutorial-card:hover .tutorial-title{
+  visibility: visible;
+}
