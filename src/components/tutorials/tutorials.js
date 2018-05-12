@@ -14,8 +14,6 @@ export default class Tutorials extends React.Component
           <TutorialCard/>
           <TutorialCard/>
           <TutorialCard/>
-        </div>
-        <div class="row">
           <TutorialCard/>
           <TutorialCard/>
           <TutorialCard/>
