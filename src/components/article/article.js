@@ -36,6 +36,8 @@ export default class Article extends React.Component
             you're following some routine or you're really managing your time correctly.
           </p>
         </div>
+        <div className="fb-comments" data-href="https://www.facebook.com" data-width="100%" data-numposts="3"></div>
+
       </div>
     );
   }

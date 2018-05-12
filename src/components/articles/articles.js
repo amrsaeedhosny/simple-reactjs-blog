@@ -8,13 +8,11 @@ export default class Articles extends React.Component {
     return(
       <div className="container-fluid gray-container">
         <SectionHeader title="Articles"/>
-        <div class="row">
+        <div className="row">
           <ArticleCard/>
           <ArticleCard/>
           <ArticleCard/>
           <ArticleCard/>
-        </div>
-        <div class="row">
           <ArticleCard/>
           <ArticleCard/>
           <ArticleCard/>
