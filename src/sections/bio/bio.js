@@ -3,8 +3,13 @@ import './bio.css'
 
 export default class Bio extends React.Component
 {
+  componentWillMount(){
+    this.setState(prevState => {
+      return require("../../json-mocks/bio.json");
+    })
+  }
   render(){
-    let bio = this.props;
+    let bio = this.state.data;
     return(
       <div className="container-fluid black-container bio-container">
         <div className="bio">
