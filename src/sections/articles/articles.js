@@ -15,7 +15,7 @@ export default class Articles extends React.Component {
         <ArticleCard
           articleImage={article.image}
           articleTitle={article.title}
-          articleHref="/articles"
+          articleHref={"/articles/" + article.id}
         />
       );
     });

@@ -17,7 +17,7 @@ export default class Tutorials extends React.Component
         <TutorialCard
           tutorialImage={tutorial.image}
           tutorialTitle={tutorial.title}
-          tutorialHref="/tutorials"
+          tutorialHref={"/tutorials/" + tutorial.id}
         />
       );
     });
