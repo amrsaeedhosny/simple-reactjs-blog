@@ -1,30 +1,27 @@
-.black-container{
-  background: #171717;
-  padding: 0px 100px 100px 100px;
-  width: 100%;
-  height: 100%;
-}
-
-.tutorial-card{
+.article-card{
   width: 100%;
   height: 200px;
   margin: 0px;
   padding: 0px;
-  background: #157d7e;
+  background: #171717;
 }
 
-.tutorial-image{
+.article-card:hover {
+  text-decoration: none;
+}
+
+.article-image{
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.tutorial-card:hover .tutorial-image{
+.article-card:hover .article-image{
   opacity: 0.2;
 }
 
-.tutorial-title{
+.article-title{
   text-align: center;
   color: #ffffff;
   transform: translateY(-150%);
@@ -35,6 +32,6 @@
   margin: 5px;
 }
 
-.tutorial-card:hover .tutorial-title{
+.article-card:hover .article-title{
   visibility: visible;
 }
