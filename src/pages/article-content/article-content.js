@@ -1,6 +1,7 @@
 import React from 'react';
 import './article-content.css'
 import Comments from '../../components/comments/comments'
+import Share from '../../components/share/share'
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 
 export default class ArticleContent extends React.Component
@@ -26,6 +27,7 @@ export default class ArticleContent extends React.Component
         <div className="article-text">
           {ReactHtmlParser(article.content)}
         </div>
+        <Share/>
         <Comments dataHref={"https://www.amrsaeed/articles/" + this.props.match.params.id}/>
       </div>
     );
