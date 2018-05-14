@@ -22,7 +22,7 @@ export default class Tutorials extends React.Component
       );
     });
     return(
-      <div className="container-fluid tutorials-black-container">
+      <div className="tutorials-black-container">
         <SectionHeader
           sectionTitle="Tutorials"
           sectionHref="/tutorials"

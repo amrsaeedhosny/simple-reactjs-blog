@@ -11,7 +11,7 @@ export default class Bio extends React.Component
   render(){
     let bio = this.state.data;
     return(
-      <div className="container-fluid black-container bio-container">
+      <div className="black-container bio-container">
         <div className="bio">
           <img className="bio-image" src={bio.image}/>
           <div className="bio-details">

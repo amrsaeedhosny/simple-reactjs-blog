@@ -1,6 +1,7 @@
 import React from 'react';
 import './all-articles.css'
 import ArticleCard from "../../components/article-card/article-card";
+import Search from "../../components/search/search";
 
 export default class AllArticles extends React.Component
 {
@@ -22,6 +23,7 @@ export default class AllArticles extends React.Component
     });
     return(
       <div className="gray-container">
+        <Search/>
         <div className="row">
           {articles}
         </div>

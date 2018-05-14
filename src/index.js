@@ -9,6 +9,8 @@ import ArticleContent from "./pages/article-content/article-content"
 import AllTutorials from "./pages/all-tutorials/all-tutorials"
 import TutorialContent from "./pages/tutorial-content/tutorial-content"
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 class App extends React.Component
 {
     render(){

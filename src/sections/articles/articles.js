@@ -20,7 +20,7 @@ export default class Articles extends React.Component {
       );
     });
     return(
-      <div className="container-fluid articles-gray-container">
+      <div className="articles-gray-container">
         <SectionHeader
           sectionTitle="Articles"
           sectionHref="/articles"

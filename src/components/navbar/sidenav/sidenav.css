@@ -20,6 +20,11 @@
     transition: 0.3s;
 }
 
+.sidenav a:hover {
+    color: #fefefe;
+    text-decoration: none;
+}
+
 .sidenav .close-btn {
     position: absolute;
     top: 0;

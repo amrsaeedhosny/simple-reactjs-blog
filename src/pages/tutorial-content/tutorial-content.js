@@ -16,7 +16,7 @@ export default class TutorialContent extends React.Component
   render(){
     let tutorial = this.state;
     return (
-      <div className="container-fluid tutorial-content">
+      <div className="tutorial-content">
         <h1 className="main-title">{tutorial.title}</h1>
         <div className="tutorial-info">
           <img className="author-image" src="../images/bio-img.jpg"/>

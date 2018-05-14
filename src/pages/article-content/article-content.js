@@ -16,7 +16,7 @@ export default class ArticleContent extends React.Component
   render(){
     let article = this.state;
     return (
-      <div className="container-fluid article-content">
+      <div className="article-content">
         <h1 className="main-title">{article.title}</h1>
         <div className="article-info">
           <img className="author-image" src="../images/bio-img.jpg"/>
