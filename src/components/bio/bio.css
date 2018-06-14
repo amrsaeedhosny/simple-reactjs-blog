@@ -1,11 +1,8 @@
-.black-container{
+.bio-container{
   background:  #171717;
   padding: 0px 100px 100px 100px;
   width: 100%;
   height: 100%;
-}
-
-.bio-container{
   display: table;
 }
 
@@ -16,7 +13,7 @@
 }
 
 .bio-image{
-  height: 300px;
+  width: 30%;
   transform: translate(-80%,25%);
   border-radius: 100%;
   border: solid 5px #171717;
@@ -24,7 +21,7 @@
 
 .bio-details{
   margin: 0 auto;
-  width: 500px;
+  width: 50%;
   color: #efefef;
   background:  #157d7e;
   padding: 20px;
@@ -44,4 +41,28 @@
 
 .fa:hover{
   color: #157d7e;
+}
+
+@media only screen and (max-width: 768px) {
+  .bio-container{
+    padding: 0px 25px 25px 25px;
+  }
+
+  .bio-image{
+    width: 50%;
+    transform: translate(-5%, 5%);
+  }
+
+  .bio-details{
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .bio-details h1{
+    font-size: 30px;
+  }
+
+  .bio-details h3{
+    font-size: 20px;
+  }
 }

@@ -1,27 +1,26 @@
-.article-card{
+.item{
   width: 25%;
   height: 200px;
   margin: 0px;
   padding: 0px;
-  background: #171717;
 }
 
-.article-card:hover {
+.item:hover{
   text-decoration: none;
 }
 
-.article-image{
+.image{
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.article-card:hover .article-image{
+.item:hover .image{
   opacity: 0.2;
 }
 
-.article-title{
+.title{
   text-align: center;
   color: #ffffff;
   transform: translateY(-150%);
@@ -32,6 +31,20 @@
   margin: 5px;
 }
 
-.article-card:hover .article-title{
+.item:hover .title{
   visibility: visible;
+}
+
+@media only screen and (max-width: 768px) {
+  .item {
+    width: 50%;
+    height: 150px;
+  }
+  .image{
+    opacity: 0.7;
+  }
+  .title{
+    visibility: visible;
+    font-size: 12px;
+  }
 }

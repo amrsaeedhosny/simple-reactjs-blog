@@ -1,4 +1,4 @@
-.section-header{
+.header{
   margin-bottom: 50px;
 }
 
@@ -16,7 +16,7 @@
   float:right;
 }
 
-.title{
+.section-title{
   display: table-cell;
   vertical-align:middle;
   text-align: center;

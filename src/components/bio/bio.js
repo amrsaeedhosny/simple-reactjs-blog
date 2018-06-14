@@ -5,15 +5,15 @@ export default class Bio extends React.Component
 {
   componentWillMount(){
     this.setState(prevState => {
-      return require("../../json-mocks/bio.json");
+      return require("../../data/bio.json");
     })
   }
   render(){
     let bio = this.state.data;
     return(
-      <div className="black-container bio-container">
+      <div className="bio-container">
         <div className="bio">
-          <img className="bio-image" src={bio.image}/>
+          <img className="bio-image" alt="Amr Saeed" src={bio.image}/>
           <div className="bio-details">
             <h1>{bio.name}</h1>
             <h3>{bio.job}</h3>
