@@ -9,7 +9,7 @@ import Article from "./pages/article"
 import Tutorials from "./pages/tutorials"
 import Tutorial from "./pages/tutorial"
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component
 {
