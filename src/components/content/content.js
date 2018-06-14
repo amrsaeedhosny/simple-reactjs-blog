@@ -11,13 +11,21 @@ export default class Content extends React.Component
       case "article":
         this.setState(prevState => {
           let items = require("../../data/articles.json").data;
-          return items[this.props.id];
+          for(let i = 0; i < items.length; i++){
+            if(items[i].id == this.props.id){
+              return items[i];
+            }
+          }
         });
         break;
       case "tutorial":
         this.setState(prevState => {
           let items = require("../../data/tutorials.json").data;
-          return items[this.props.id];
+          for(let i = 0; i < items.length; i++){
+            if(items[i].id == this.props.id){
+              return items[i];
+            }
+          }
         });
         break;
       default:

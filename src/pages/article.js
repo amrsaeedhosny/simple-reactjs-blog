@@ -8,8 +8,8 @@ export default class Article extends React.Component
       <Content
         type="article"
         src="../../data/articles.json"
-        id={this.props.match.params.id-1}
-        commentsUrl={"https://www.amrsaeed.com/articles/" + (this.props.match.params.id - 1)}
+        id={this.props.match.params.id}
+        commentsUrl={"https://www.amrsaeed.com/articles/" + this.props.match.params.id}
       />
     );
   }
