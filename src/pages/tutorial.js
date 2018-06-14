@@ -8,8 +8,8 @@ export default class Tutorial extends React.Component
       <Content
         type="tutorial"
         src="../../data/tutorials.json"
-        id={this.props.match.params.id-1}
-        commentsUrl={"https://www.amrsaeed.com/tutorials/" + (this.props.match.params.id - 1)}
+        id={this.props.match.params.id}
+        commentsUrl={"https://www.amrsaeed.com/tutorials/" + this.props.match.params.id}
       />
     );
   }
